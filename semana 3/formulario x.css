@@ -1,0 +1,63 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(241, 202, 253);
+}
+.contenedor{
+    max-width: 450px;
+    height: auto;
+    background-color: rgb(124, 112, 158);
+    margin: 5% auto;
+    padding-bottom: 16px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 5px;
+    border-top: solid 8px rgb(212, 212, 212);
+    margin-bottom: 5px;
+}
+header h2{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.form_registre{
+    padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(253, 253, 253);
+}
+.btn_accion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+input, .btn_enviar, .btn_limpiar{
+    background-color: rgb(0, 0, 0);
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;
+}
+input:focus{
+    background-color: rgb(95, 88, 134);
+    border-color: rgb(87, 75, 158);
+}
+.btn_enviar, .btn_limpiar{
+    width: 40%;
+    border-radius: 25px;
+    background-color: rgb(85, 48, 107);
+    color: rgb(206, 206, 206);
+    margin-left: 25px;
+}
+.terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
